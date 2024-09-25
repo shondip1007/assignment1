@@ -42,7 +42,6 @@
                 android:layout_gravity="center_horizontal"
                 android:thumbTint="#bdbd0d" />
 
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,8 +69,8 @@
                 android:numStars="5"
                 android:rating="3"
                 android:stepSize="1"
-                android:progressBackgroundTint="#2be317"
-                android:progressTint="#cc3423" />
+                android:progressBackgroundTint="#b5b2b1"
+                android:progressTint="#2be317" />
 
 
             <TextView
