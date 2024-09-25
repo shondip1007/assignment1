@@ -4,11 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity3 extends AppCompatActivity {
     //change 1git
@@ -40,7 +36,7 @@ public class MainActivity3 extends AppCompatActivity {
             startActivity(intent);
         });
         btnSeekSwitchRatting.setOnClickListener(v -> {
-            Intent intent = new Intent(this, seekBar.class);
+            Intent intent = new Intent(this, some_activity_bar.class);
             startActivity(intent);
         });
     }

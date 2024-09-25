@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class seekBar extends AppCompatActivity {
+public class some_activity_bar extends AppCompatActivity {
 
     int progress;
 
@@ -42,12 +42,12 @@ public class seekBar extends AppCompatActivity {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-                Toast.makeText(seekBar.this, "onStartTrackingTouch", Toast.LENGTH_SHORT).show();
+                Toast.makeText(some_activity_bar.this, "onStartTrackingTouch", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                Toast.makeText(seekBar.this, "onStopTrackingTouch", Toast.LENGTH_SHORT).show();
+                Toast.makeText(some_activity_bar.this, "onStopTrackingTouch", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -55,9 +55,9 @@ public class seekBar extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(isChecked){
-                    Toast.makeText(seekBar.this, "On", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(some_activity_bar.this, "On", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(seekBar.this, "Off", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(some_activity_bar.this, "Off", Toast.LENGTH_SHORT).show();
                 }
             }
         });

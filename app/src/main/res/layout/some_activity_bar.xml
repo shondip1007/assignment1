@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    tools:context=".seekBar">
+    tools:context=".some_activity_bar">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -33,7 +33,6 @@
                 android:layout_height="wrap_content" />
 
 
-
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,7 +40,7 @@
                 android:max="10"
                 android:layout_margin="10dp"
                 android:layout_gravity="center_horizontal"
-                android:thumbTint="#8834ceed" />
+                android:thumbTint="#bdbd0d" />
 
 
             <TextView
@@ -59,7 +58,7 @@
                 android:layout_gravity="center_horizontal"
                 android:id="@+id/switchid"
                 android:layout_height="wrap_content"
-                android:text="WiFi"
+                android:text="WLAN "
                 android:textSize="24sp" />
 
 
