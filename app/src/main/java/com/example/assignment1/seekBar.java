@@ -1,9 +1,6 @@
 package com.example.assignment1;
 
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.ProgressBar;
 import android.widget.RatingBar;
@@ -12,18 +9,12 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 
 
 public class seekBar extends AppCompatActivity {
 
     int progress;
-
 
     private SeekBar seekBar;
     private TextView tvSeekBar;
@@ -36,7 +27,7 @@ public class seekBar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_seek_bar);
+        setContentView(R.layout.some_activity_bar);
         seekBar = findViewById(R.id.sekkBaar);
         tvSeekBar = findViewById(R.id.tvSeekbar);
         aSwitch = findViewById(R.id.switchid);
