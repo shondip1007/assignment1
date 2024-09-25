@@ -44,7 +44,7 @@
                 android:textAllCaps="true"
                 android:layout_marginBottom="15dp"
                 android:textColor="@color/white"
-                android:background="@drawable/btn10_plan"
+                android:background="@drawable/btn8_plan"
                 android:textSize="20sp"
                 android:text="Seek Switch Ratting" />
 
@@ -68,7 +68,7 @@
                 android:textAllCaps="true"
                 android:layout_marginBottom="15dp"
                 android:textColor="@color/white"
-                android:background="@drawable/btn10_plan"
+                android:background="@drawable/btn8_plan"
                 android:textSize="20sp"
                 android:text="Set Image" />
 
