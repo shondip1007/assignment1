@@ -70,8 +70,8 @@
                 android:numStars="5"
                 android:rating="3"
                 android:stepSize="1"
-                android:progressBackgroundTint="@android:color/holo_red_light"
-                android:progressTint="@android:color/holo_blue_light" />
+                android:progressBackgroundTint="#2be317"
+                android:progressTint="#cc3423" />
 
 
             <TextView
