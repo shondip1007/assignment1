@@ -10,7 +10,7 @@ public class MainActivity3 extends AppCompatActivity {
     //change 1git
     // change 2
 
-    private Button btnText,btnImage,btnCheckRadio,btnSeekSwitchRatting;
+    private Button btnText,btnImage,btnCheckRadio,btnSeekSwitchRatting,formANdRegexValidation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,7 @@ public class MainActivity3 extends AppCompatActivity {
         btnText = findViewById(R.id.btntext);
         btnImage = findViewById(R.id.btnimage);
         btnCheckRadio = findViewById(R.id.btnCheckRadio);
+        formANdRegexValidation = findViewById(R.id.btnFormRegex);
 
         btnSeekSwitchRatting = findViewById(R.id.btnSeekbarRatingBarSwitch);
 
@@ -29,6 +30,10 @@ public class MainActivity3 extends AppCompatActivity {
         });
         btnImage.setOnClickListener(v -> {
             Intent intent = new Intent(this, MainActivity2.class);
+            startActivity(intent);
+        });
+        formANdRegexValidation.setOnClickListener(v -> {
+            Intent intent = new Intent(this, RegexValidation.class);
             startActivity(intent);
         });
         btnCheckRadio.setOnClickListener(v -> {
